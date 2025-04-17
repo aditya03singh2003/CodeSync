@@ -4,7 +4,7 @@ A fully‑featured remote interview platform built with cutting‑edge web techn
 ## 🔥 Preview
 
 ### 🏠 Home Page
-![Home Page](public/screenshots/Home_page.png)
+![Home Page](public/screenshots/Home_Page.png)
 
 ### 📅 Schedule Interview
 ![Schedule Interview](public/screenshots/Schedule_Interview.png)
