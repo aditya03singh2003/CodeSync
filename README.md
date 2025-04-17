@@ -56,6 +56,7 @@ Open http://localhost:3000
 
   
 📫 **Contact**
+
 Email: aditya03singh2003@gmail.com
 
 LinkedIn: linkedin.com/in/adityaaa03
