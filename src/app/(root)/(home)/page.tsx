@@ -8,9 +8,9 @@ import { useState } from "react";
 import { api } from "../../../../convex/_generated/api";
 import { useRouter } from "next/navigation";
 import MeetingModal from "@/components/MeetingModal";
-//import LoaderUI from "@/components/LoaderUI";
+import LoaderUI from "@/components/LoaderUI";
 import { Loader2Icon } from "lucide-react";
-//import MeetingCard from "@/components/MeetingCard";
+import MeetingCard from "@/components/MeetingCard";
 
 export default function Home() {
   const router = useRouter();
@@ -35,7 +35,7 @@ export default function Home() {
     }
   };
 
-  //if (isLoading) return <LoaderUI />;
+  if (isLoading) return <LoaderUI />;
 
   return (
     <div className="container max-w-7xl mx-auto p-6">
@@ -84,9 +84,9 @@ export default function Home() {
               </div>
             ) : interviews.length > 0 ? (
               <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                {/* {interviews.map((interview) => (
+                {interviews.map((interview) => (
                   <MeetingCard key={interview._id} interview={interview} />
-                ))} */}
+                ))}
               </div>
             ) : (
               <div className="text-center py-12 text-muted-foreground">
