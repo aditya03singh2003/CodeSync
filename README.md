@@ -1,36 +1,109 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔄 CodeSync – Collaborative Code Playground
 
-## Getting Started
+A real‑time, multi‑language online code editor built for seamless collaboration. Write, execute, and share code with your team—complete with live syncing, theming, and integrated authentication.
 
-First, run the development server:
+---
 
-```bash
+## 📺 Live Demo
+
+![Home Page](/screenshots/Home_page.png)  
+![Schedule Interview](/screenshots/Schedule_Interview.png)  
+![Join Meeting](/screenshots/Join_Meeting.png)  
+![Meeting Room](/screenshots/Meeting_Room.png)  
+![Recording](/screenshots/Recording.png)  
+
+---
+
+## 🚀 Highlights
+
+- **Tech Stack**  
+  Next.js · TypeScript · Convex · Clerk · Tailwind CSS · Recharts  
+- **Real‑Time Sync**  
+  Instant code sharing across multiple users  
+- **Multi‑Language**  
+  Supports JavaScript, Python, Java, C++ (and more)  
+- **VSCode‑Style Themes**  
+  Choose from Dark, Light, and Monokai themes  
+- **Execution & Output**  
+  Run code in‑browser with clear success/error feedback  
+- **User Profiles**  
+  Track history, save snippets, and personalize settings  
+- **Interactive Charts**  
+  Visualize usage stats with Recharts  
+- **Secure Auth**  
+  Clerk‑powered sign‑in/sign‑up and role‑based access  
+
+---
+
+## 🔧 Setup
+
+1. **Clone & install**  
+   ```bash
+   git clone https://github.com/aditya03singh2003/CodeSync.git
+   cd CodeSync
+   npm install
+
+
+Environment variables
+Create a .env.local in the project root:
+
+ini
+Copy
+Edit
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+CLERK_SECRET_KEY=your_clerk_secret_key
+CONVEX_DEPLOYMENT=your_convex_deployment
+NEXT_PUBLIC_CONVEX_URL=your_convex_url
+Run the dev server
+
+bash
+Copy
+Edit
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open your browser
+Navigate to http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🛠️ Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Feature	Description
+👥 Live Collaboration	Real‑time code sync powered by Convex
+📝 Multi‑Language	JavaScript, Python, Java, C++
+🎨 Theming	Dark, Light, Monokai with Tailwind & shadcn/ui
+▶️ Code Execution	In‑browser runner with clear output & error states
+📂 Snippet Library	Save, share, and search your code snippets
+📊 Usage Dashboard	Visualize runs, users, and errors with Recharts
+🔒 Secure Auth	Clerk authentication & session management
+🤝 Contributing
+Fork the repo
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create a branch
 
-## Learn More
+bash
+Copy
+Edit
+git checkout -b feature/awesome
+Commit your changes
 
-To learn more about Next.js, take a look at the following resources:
+bash
+Copy
+Edit
+git commit -m 'feat: add awesome feature'
+Push & open a PR
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+bash
+Copy
+Edit
+git push origin feature/awesome
+We’ll review & merge!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+📄 License
+This project is licensed under the MIT License. See LICENSE for details.
 
-## Deploy on Vercel
+📫 Contact
+Email: aditya03singh2003@gmail.com
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+LinkedIn: linkedin.com/in/adityaaa03
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+GitHub: github.com/aditya03singh2003
+
+Happy coding! 🚀
