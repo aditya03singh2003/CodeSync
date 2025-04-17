@@ -6,11 +6,11 @@ A real‑time, multi‑language online code editor built for seamless collaborat
 
 ## 📺 Live Demo
 
-![Home Page](/screenshots/Home_page.png)  
-![Schedule Interview](/screenshots/Schedule_Interview.png)  
-![Join Meeting](/screenshots/Join_Meeting.png)  
-![Meeting Room](/screenshots/Meeting_Room.png)  
-![Recording](/screenshots/Recording.png)  
+![Home Page](public/screenshots/Home_page.png)  
+![Schedule Interview](public/screenshots/Schedule_Interview.png)  
+![Join Meeting](public/screenshots/Join_Meeting.png)  
+![Meeting Room](public/screenshots/Meeting_Room.png)  
+![Recording](public/screenshots/Recording.png)  
 
 ---
 
