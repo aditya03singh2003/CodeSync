@@ -1,6 +1,13 @@
 # CodeSync  
 A fully‑featured remote interview platform built with cutting‑edge web technologies, empowering teams to conduct seamless, end‑to‑end technical interviews. With high‑quality video calls, real‑time screen sharing, and built‑in recording, interviewers and candidates can collaborate effortlessly. Under the hood, it leverages Next.js & TypeScript for fast, server‑rendered pages and dynamic routing, Stream for reliable media streams, Convex for real‑time state sync, and Clerk for secure authentication. Architected with modern Server and Client Components, Layouts, and Server Actions, and styled using Tailwind CSS and Shadcn/ui, it delivers a polished, responsive experience—ideal for both onsite and remote hiring workflows.
 
+
+## 🚀 Live Demo
+
+Access the deployed version here:  
+🔗 [https://code-sync-eight-xi.vercel.app](https://code-sync-eight-xi.vercel.app)
+
+
 ## 🔥 Preview
 
 ### 🏠 Home Page
