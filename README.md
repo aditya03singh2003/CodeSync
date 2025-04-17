@@ -18,18 +18,18 @@ A fully‑featured remote interview platform built with cutting‑edge web techn
 ### 🎬 Recording
 ![Recording](public/screenshots/Recording.png)
 
-**Highlights**  
+## 🚀 Highlights
 
-🚀 Tech stack: Next.js & TypeScript, Stream, Convex, Clerk
-🎥 Video Calls
-🖥️ Screen Sharing
-🎬 Screen Recording
-🔒 Authentication & Authorization
-💻 Server Components, Layouts, Server Actions
-🎭 Client & Server Components
-🛣️ Dynamic & Static Routes
-🎨 Styling with Tailwind & Shadcn
-✨ Server Actions
+- **Tech Stack:** Next.js & TypeScript, Stream, Convex, Clerk  
+- **🎥 Video Calls**  
+- **🖥️ Screen Sharing**  
+- **🎬 Screen Recording**  
+- **🔒 Authentication & Authorization**  
+- **💻 Server Components, Layouts, Server Actions**  
+- **🎭 Client & Server Components**  
+- **🛣️ Dynamic & Static Routes**  
+- **🎨 Styling with Tailwind & Shadcn**  
+- **✨ Server Actions**
 
 **Setup**  
 1. Create `.env.local`:  
